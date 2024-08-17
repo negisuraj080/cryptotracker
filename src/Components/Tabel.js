@@ -14,7 +14,7 @@ const Tabel=({cripto})=>{
               let color=item.price_change_percentage_24h<0?"red":"green"
              return (<tr key={index}>
               <td className="img-name">
-                  <img src={item.image} />
+                  <img src={item.image} alt="crypto-image"/>
                   <p>{item.name}</p>
               </td>
               <td>{item.symbol.toUpperCase()}</td>
